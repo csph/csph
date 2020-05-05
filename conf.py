@@ -64,6 +64,9 @@ html_static_path = ['_static']
 # Для сборки на Read the Docs
 master_doc = 'index'
 
+# Дата
+today_fmt = '%d %B %Y года'
+
 # PDF
 pdf_documents = [(
     master_doc,
