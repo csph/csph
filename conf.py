@@ -31,6 +31,7 @@ release = '0.1dev1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -63,4 +64,22 @@ html_static_path = ['_static']
 
 # Для сборки на Read the Docs
 master_doc = 'index'
+
+# PDF
+pdf_documents = [(
+    master_doc,
+    project,
+    project,
+    author,
+)]
+pdf_stylesheets = ['sphinx', 'kerning', 'a4']
+
+# LaTeX
+latex_documents = [(
+    master_doc,
+    project.replace(' ', '_') + '.tex',
+    project,
+    author,
+    'manual',  # documentclass
+)]
 
