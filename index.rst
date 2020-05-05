@@ -6,6 +6,12 @@
 Welcome to Контекстно-системная философия's documentation!
 ==========================================================
 
+.. image:: _static/logotype.svg
+    :alt: Контекстно-системная философия
+    :width: 200px
+    :align: center
+    :target: #id1
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
