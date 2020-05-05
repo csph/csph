@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Контекстно-системная философия'
-author = f'соавторы проекта {project}.'
-copyright = f'2020, {author}'
+author = f'соавторы проекта {project}'
+copyright = f'2020, {author}.'
 release = '0.1dev1'
 version = f'{release}'
 html_title = f'{project}. Издание {release}'
