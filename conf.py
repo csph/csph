@@ -32,7 +32,12 @@ html_title = f'{project}. Издание {release}'
 # ones.
 extensions = [
     'rst2pdf.pdfbuilder',
+    'sphinx.ext.imgconverter',
 ]
+
+# Сохранение прозрачного фона .svg изображений при конвертации в .png,
+# найдено в документации к команде convert утилиты ImageMagick.
+image_converter_args = ['-background', 'transparent']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
