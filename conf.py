@@ -18,11 +18,10 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Контекстно-системная философия'
-copyright = '2020, соавторы проекта «Контекстно-системная философия»'
-author = 'соавторы проекта «Контекстно-системная философия»'
-
-# The full version, including alpha/beta/rc tags
+author = f'соавторы проекта {project}.'
+copyright = f'2020, {author}'
 release = '0.1dev1'
+html_title = f'{project}. Издание {release}'
 
 
 # -- General configuration ---------------------------------------------------
@@ -77,7 +76,7 @@ pdf_stylesheets = ['sphinx', 'kerning', 'a4']
 # LaTeX
 latex_documents = [(
     master_doc,
-    project.replace(' ', '_') + '.tex',
+    f'{project}.tex'.replace(' ', '_'),
     project,
     author,
     'manual',  # documentclass
