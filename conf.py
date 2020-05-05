@@ -85,3 +85,7 @@ latex_documents = [(
     'manual',  # documentclass
 )]
 
+latex_elements = {
+    'releasename': 'Издание',
+}
+
