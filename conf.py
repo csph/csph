@@ -95,3 +95,6 @@ latex_elements = {
     'releasename': 'Издание',
 }
 
+# EPUB
+epub_basename = f'{project}'.replace(' ', '_')
+
