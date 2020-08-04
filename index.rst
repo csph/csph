@@ -15,3 +15,5 @@
     :maxdepth: 1
     :caption: Содержание
 
+    cooperation/index
+
