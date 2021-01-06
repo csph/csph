@@ -32,8 +32,11 @@ html_title = f'{project}. Издание {release}'
 # ones.
 extensions = [
     'rst2pdf.pdfbuilder',
+    'sphinx.ext.autosectionlabel',
     'sphinx.ext.imgconverter',
 ]
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 3
 
 # Сохранение прозрачного фона .svg изображений при конвертации в .png,
 # найдено в документации к команде convert утилиты ImageMagick.

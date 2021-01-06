@@ -18,5 +18,5 @@
     :maxdepth: 1
     :caption: Содержание
 
+    fundamentals/index
     cooperation/index
-
